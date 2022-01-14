@@ -120,7 +120,7 @@ nav {
 .reasons {
     margin-top: 70px;
 }
-.reasons .reasons_label {
+.reasons .reasons_label, .mobile .mobile_label, .choice .choice_label, .terms .terms_label {
     display: block;
     margin: 0 auto;
     width: 112px;
@@ -133,7 +133,12 @@ nav {
     text-transform: uppercase;
     line-height: 24px;
 }
-.reasons .reasons_header {
+.choice .choice_label {
+    background-color: #ffffff;
+    color: #070716;
+}
+
+.reasons .reasons_header, .mobile .mobile_header, .choice .choice_header, .terms .terms_header {
     margin-top: 38px;
     color: #222222;
     font-size: 38px;
@@ -141,6 +146,11 @@ nav {
     text-align: center;
     text-transform: uppercase;
 }
+
+.choice .choice_header {
+    color: #ffffff;
+}
+
 .reasons .row {
     margin: 40px 0 30px 0;
 }
@@ -179,4 +189,144 @@ nav {
     font-weight: 300;
     line-height: 21px;
     text-align: justify;
+}
+
+.mobile .mobile_subheader, .choice .choice_subheader {
+    margin-bottom: 32px;
+    color: #222222;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+}
+.choice .choice_subheader {
+    color: #fff;
+}
+.mobile .mobile_box-1, .mobile_box-2, .mobile_box-3, .mobile_box-4, .mobile_box-5, .mobile_box-6  {
+    position: relative;
+    margin-bottom: 20px;
+    width: 320px;
+    height: 280px;
+}
+.mobile .mobile_box-1 {
+    background: url("../img/mobile/mobile-pic1.jpg") center center/cover no-repeat;
+}
+.mobile .mobile_box-2 {
+    background: url("../img/mobile/mobile-pic2.jpg") center center/cover no-repeat;
+}
+.mobile .mobile_box-3 {
+    background: url("../img/mobile/mobile-pic3.jpg") center center/cover no-repeat;
+}
+.mobile .mobile_box-4 {
+    background: url("../img/mobile/mobile-pic4.png") center center/cover no-repeat;
+}
+.mobile .mobile_box-5 {
+    background: url("../img/mobile/mobile-pic5.jpg") center center/cover no-repeat;
+}
+.mobile .mobile_box-6 {
+    background: url("../img/mobile/mobile-pic6.png") center center/cover no-repeat;
+}
+.mobile_box-text {
+    padding-top: 91px;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+}
+.mobile_box-icon {
+    position: absolute;
+    bottom: 35px;
+    left: 48%;
+    right: 48%;
+    width: 26px;
+    height: 26px;
+    background-color: #000000;
+    border-radius: 50%;
+}
+.mobile_box-icon .mobile_box-plus {
+    transform: translateX(45%);
+}
+
+.choice{
+    margin-top: 80px;
+    padding-top: 57px;
+    width: 100%;
+    height: 499px;
+    background-color: #000 ;
+}
+
+.car .container {
+    position: relative;
+}
+.car .car_img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fond{
+    padding-top: 217px;
+    height: 397px;
+    background: url("../img/car-fond.png") center center/cover no-repeat;
+}
+.fond .fond_text {
+    color: #222222;
+    font-size: 17px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: center;
+}
+
+.terms {
+    margin-top: 68px;
+}
+.terms .terms_item {
+    margin-top: 33px;
+    width: 480px;
+}
+.terms .terms_item .terms_item-header, .condition_item .condition_item-header {
+    margin-bottom: 15px;
+    color: #1ca8c3;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: normal;
+}
+.terms .condition_item .condition_item-header {
+    color: #ff5656;
+}
+.terms .terms_item .terms_list-text, .condition_item .condition_list-text {
+    color: #222222;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+}
+.terms .terms_item .terms_item-comment {
+    color: #1ca8c3;
+    font-weight: 300;
+    line-height: normal;
+}
+.terms .condition_item {
+    margin-top: 62px;
+    width: 480px;
+}
+.terms .terms_item .terms_list .terms_list-item, .condition_item .condition_list .condition_list-item {
+    display: flex;
+}
+.terms .terms_item .terms_list .terms_list-item>img, .condition_item .condition_list .condition_list-item>img {
+    margin-right: 10px;
+    width: 21px;
+    height: 20px;
+}
+
+.world {
+    margin-top: 94px;
+    background-color: #080816;
+}
+.world .container {
+    height: 717px;
+    background: url("../img/world_bg.png") center center/contain no-repeat;
 }
